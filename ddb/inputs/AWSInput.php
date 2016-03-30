@@ -133,8 +133,9 @@ abstract class AWSInput {
         if(!empty($this->_limit))
             $output["Limit"]=$this->_limit;
 
+        $filters = $this->filter() !== null ? $this->filter()->toArray() : false;
         if($this->filter()!==null&&//filter not null
-            !empty($this->filter()->toArray())&&//filter values not empty
+            !empty($filters)&&//filter values not empty
             count($output[$this->filter()->filter_type])>1//type of filter is indicated
             && $this->filter()->filter_type!==\dnocode\awsddb\ddb\enums\Filter::Key // isn`t key filter
         ){

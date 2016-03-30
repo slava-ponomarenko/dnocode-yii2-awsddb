@@ -1,11 +1,11 @@
 {
-    "name": "dnocode/yii2-awsddb",
+    "name": "slava-ponomarenko/yii2-awsddb",
     "description": "Amazon dynamo db  ActiveRecord for the Yii framework",
     "keywords": ["yii2", "dynamo db", "activerecord", "amazon"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "source": "https://github.com/dnocode/dnocode-yii2-awsddb"
+        "source": "https://github.com/slava-ponomarenko/dnocode-yii2-awsddb"
     },
     "authors": [
         {
