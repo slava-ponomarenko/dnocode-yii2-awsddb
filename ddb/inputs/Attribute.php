@@ -1,6 +1,6 @@
 <?php
 namespace dnocode\awsddb\ddb\inputs;
-
+use Aws\DynamoDb\Enum\Type;
 
 /**
  * Class representing a DynamoDB item attribute. Contains helpers for building
