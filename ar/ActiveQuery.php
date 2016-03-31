@@ -5,7 +5,6 @@ namespace dnocode\awsddb\ar;
 use yii\db\ActiveQueryInterface;
 
 
-
 /**
  * ActiveQuery represents a DB query associated with an Active Record class.
  *
